@@ -1,0 +1,17 @@
+[flake8]
+docstring-convention = numpy
+max-line-length = 120
+max-complexity = 10
+extend-ignore =
+    # Ignore no blank lines allowed after function docstring
+    D202,
+    # Ignore docstrings with no description between header and content
+    D412,
+    # Ignore f-strings warnings, we like them
+    SFS301,
+    # Ignore f-string logging warnings
+    PIE803,
+    # Ignore conflict with Black fixer
+    E203,
+    # Ignore binary operator line break
+    W503

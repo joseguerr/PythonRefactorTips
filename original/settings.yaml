@@ -1,0 +1,18 @@
+---
+
+staging_input: inputs_staging/
+staging_output: outputs_staging/
+
+live_input: inputs_live/
+live_output: outputs_live/
+
+car_type_settings:
+  suv: forge_works
+  sedan: meltdown_manufacturing
+  van: radiant_rims
+  sports_car: radiant_rims
+
+factory_settings:
+  forge_works: 2
+  meltdown_manufacturing: 0
+  radiant_rims: 1

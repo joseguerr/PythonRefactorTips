@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+python-decouple = "*"
+pyyaml = "*"
+
+[dev-packages]
+flake8 = "==4.0.1"
+isort = "==5.10.1"
+mccabe = "==0.6.1"
+pycodestyle = "==2.8.0"
+pyflakes = "==2.4.0"
+flake8-docstrings = "*"
+pep8-naming = "*"
+flake8-variables-names = "*"
+flake8-continuation = "*"
+flake8-builtins = "*"
+flake8-sfs = "*"
+flake8-eradicate = "*"
+flake8-bugbear = "*"
+flake8-return = "*"
+flake8-comprehensions = "*"
+flake8-pie = "*"
+black = "*"
+python-dotenv = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.9"

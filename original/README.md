@@ -1,0 +1,1 @@
+To run the original script move its contents to the root folder.
